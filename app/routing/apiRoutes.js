@@ -18,15 +18,16 @@ module.exports = function(app) {
   });
 
     app.post("/api/friends", function(req, res) {
-    // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
-    // It will do this by sending out the value "true" have a table
-    // req.body is available since we're u9sing the body-parser middleware
+     
+
+     // this is pushing what was entered into the survey onto the friends.js page in API format
+
+
     console.log(req.body)
     friendsData.push(req.body);
     res.json(true);
 
-    // add up new friend scores
-    // compare new friend total score with friends total score in friends array
-    // send matchedFriend object back as a response
+    // console.log is showing all the correct information but it is not pushing it onto the page 
+
   });
 };
