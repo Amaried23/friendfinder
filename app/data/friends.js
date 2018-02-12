@@ -1,8 +1,5 @@
 // ===============================================================================
 // DATA
-// Below data will hold information regarding friends and survery scores
-// ===============================================================================
-
 var friendsArray = [
   {
   "name":"Alexis",
@@ -18,10 +15,10 @@ var friendsArray = [
       5,
       4,
       1
-    ]
+    ],
+    "questionSum" : "10"
   }
-];
+]
 
 // Note how we export the array. This makes it accessible to other files using require.
 module.exports = friendsArray;
-
