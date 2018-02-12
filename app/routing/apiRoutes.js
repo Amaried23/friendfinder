@@ -27,7 +27,7 @@ module.exports = function(app) {
     friendsData.push(req.body);
     res.json(true);
 
-    // console.log is showing all the correct information but it is not pushing it onto the page 
-
+  // here is where we would do compare the current users question sum with the sums of the friends within friends.js 
+  
   });
 };
