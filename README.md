@@ -4,5 +4,5 @@ A compatibility-based "FriendFinder" application. This is a full-stack site that
 
 The app will then display the name and picture of the user with the best overall match.
 
-Heroku link:  https://amariefriendfinder.herokuapp.com/
+Heroku link:  https://fast-taiga-65972.herokuapp.com/
 
